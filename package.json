@@ -1,0 +1,24 @@
+{
+  "name": "locker",
+  "description": "Locker is a side-car, distributed, embedded secrets-management and key-value store",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "files": [
+    "index.js",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^27.2.0"
+  },
+  "dependencies": {
+    "eventemitter3": "^4.0.7",
+    "pino": "^6.13.2",
+    "pino-pretty": "^7.0.1",
+    "shamir": "^0.7.1"
+  }
+}
