@@ -1,0 +1,3 @@
+type SpawnOptions = {
+  connect: string
+}
